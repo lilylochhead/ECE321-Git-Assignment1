@@ -7,23 +7,23 @@ int main(){
 
     printf("Enter an operator (+, -, *, /): ":);
     scanf("%c", &operator);
-
+//adition
 	switch (operator){
         case '+':
         result = number1 + number2;
         printf("%f + %f = %f\n", number1, number2, result);
         break;
-
+//subtraction
 	case '-':
         result = number1 - number2;
         printf("%f - %f = %f\n", number1, number2, result);
         break;
-
+//multiplication
 	case '*':
         result = number1 * number2;
         printf("%f * %f = %f\n", number1, number2, result);
         break;
-
+//division
 	case '/';
 	if (number2 == 0){
 		printf("Cannot divide by zero");}
