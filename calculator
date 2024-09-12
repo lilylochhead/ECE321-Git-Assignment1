@@ -10,14 +10,21 @@ int main(){
 
 	switch (operator){
         case '+':
-        result = number1 + numbergit p2;
+        result = number1 + number2;
         printf("%f + %f = %f\n", number1, number2, result);
         break;
 
 	case '-':
-        result = number1 - numbergit p2;
+        result = number1 - number2;
         printf("%f - %f = %f\n", number1, number2, result);
         break;
+
+	case '*':
+        result = number1 - number2;
+        printf("%f * %f = %f\n", number1, number2, result);
+        break;
+
+
 
 	
 
